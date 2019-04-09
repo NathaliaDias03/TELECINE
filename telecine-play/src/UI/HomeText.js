@@ -1,7 +1,7 @@
 import React from 'react';
-import './Home.scss';
+import './HomeText.scss';
 
-const Home = () => {
+const HomeText = () => {
     return (    
             <section className="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-center mx-auto py-3">
                 <h2 className="mx-2">
@@ -14,4 +14,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default HomeText;

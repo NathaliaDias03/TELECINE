@@ -5,7 +5,9 @@ import logo from './../logo.png';
 const Header = () => {
     return (
         <header className="Header">
-            <img src={logo} className="Header-Logo" alt="logo telecine play" />
+            <a href="/">
+                <img src={logo} className="Header-Logo" alt="logo telecine play" />
+            </a>
         </header>
     );
 }

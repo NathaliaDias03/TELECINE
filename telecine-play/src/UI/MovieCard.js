@@ -5,9 +5,9 @@ const MovieCard = (props) => {
     let width = window.innerWidth;
      if (width > 768) {
     return (
-        <a href="#">
+        <a href="#/Register">
             <div key={props.id} className="mx-4 d-block mb-2">
-                <img alt={props.title} src={props.poster_m} className="rounded-image img-fluid mx-auto d-block  movieCard" />
+                <img alt={props.title} src={props.poster_m} className="rounded-image img-fluid mx-auto d-block  movieCard"/>
                 {/* <p className="movie_titulo">{props.title}</p> */}
             </div>
         </a>

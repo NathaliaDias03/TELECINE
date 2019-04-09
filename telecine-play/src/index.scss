@@ -1,4 +1,4 @@
-$primary-font: "proxima_novaregular";
+$primary-font: "ProximaLight", "helvetica", "arial", "sans-serif";
 $primary-font-smoothing: "";
 $gray: #9c9c9c;
 
@@ -12,6 +12,10 @@ $gray: #9c9c9c;
   padding-bottom: 16px;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -20,18 +24,28 @@ body {
   font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+#root{
+  height: 100%;
+}
+
+.App{
+  //min-height: 80%;//calc(100% - 200px);
+  height: 100%;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.half-grey-bg{
-    height: 100%;
-    background: linear-gradient(180deg, #FFF 50%, #909090 50%);
+.half-grey-bg {
+  height: 100%;
+  background: linear-gradient(180deg, #fff 50%, #909090 50%);
 }
 
-.grey-bg{
+.grey-bg {
   height: 100%;
   background-color: #909090;
 }
@@ -40,6 +54,6 @@ code {
   color: #bbb;
 }
 
-.rounded-image{
-    border-radius: 5%;
+.rounded-image {
+  border-radius: 5%;
 }

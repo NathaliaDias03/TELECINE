@@ -1,0 +1,40 @@
+@import '../index.scss';
+
+.form-label{
+    text-transform: uppercase;
+    font-size:10px;
+    font-weight:bold;
+    margin: 0;
+}
+.form-input{
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+    border-color: $gray;
+    box-shadow:  0 0 2px 0 $gray;
+    outline: none !important;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.form-input:focus{
+    outline: none !important;
+    border-bottom:1px solid black;
+}
+
+.form-input:hover{
+    outline: none !important;
+    border-bottom:1px solid #aaa;
+}
+
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.rounded-btn{
+    border-radius: 30px;
+}

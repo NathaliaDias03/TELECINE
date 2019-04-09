@@ -18,11 +18,11 @@ const Dispositivos = () => {
                 <p className="text-justify mt-3">Assista na TV.</p>
                 <div className="row">
                     <div className="col-6 text-justify">
-                        <p>&#10003; Smart TVs</p>
-                        <p>&#10003; Xbox One</p>
+                        <p><span className="text-dark-gray">&#10003;</span> Smart TVs</p>
+                        <p><span className="text-dark-gray">&#10003;</span> Xbox One</p>
                 </div>
                     <div className="col-6 text-justify">
-                        <p>&#10003; Chromecast</p>
+                        <p><span className="text-dark-gray">&#10003;</span> Chromecast</p>
                 </div>
                 </div>
             </div>
@@ -33,11 +33,11 @@ const Dispositivos = () => {
                 <p className="mt-3 text-justify">Ou onde quiser</p>
                 <div className="row">
                     <div className="col-6 text-justify">
-                        <p>&#10003; Android</p>
-                        <p>&#10003; iOS</p>
+                        <p><span className="text-dark-gray">&#10003;</span> Android</p>
+                        <p><span className="text-dark-gray">&#10003;</span> iOS</p>
                 </div>
                     <div className="col-6 text-justify">
-                        <p>&#10003; PC</p>
+                        <p><span className="text-dark-gray">&#10003;</span> PC</p>
                 </div>
                 </div>
             </div>
