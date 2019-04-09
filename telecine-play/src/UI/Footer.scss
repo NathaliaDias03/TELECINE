@@ -1,12 +1,15 @@
 @import "../index.scss";
 
-.Header {
+.Footer {
     @extend %centralize;
     background-color: #FFF;
     max-height: 100px;
     padding-top: 16px;
     padding-bottom: 16px;
-  }  
-  .Header-Logo{
-      width: 150px;
+    text-transform: uppercase;
+    line-height: 0;
+    text-align: center;
+  }
+  .Footer-Logo{
+      width: 120px;
   }

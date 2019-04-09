@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import Header from './UI/Header';
-
-import "bootstrap/scss/bootstrap.scss";
 import './index.scss';
-import './App.css';
+import Header from './UI/Header';
+import Footer from './UI/Footer';
+import Home from './UI/Home'
+import Carousel from './UI/Carousel';
+import "bootstrap/scss/bootstrap.scss";
 // require('bootstrap');
 
 class App extends Component {
@@ -11,6 +12,12 @@ class App extends Component {
     return (
       <div className="App">
         <Header></Header>
+        <div className="container">
+          <Home></Home>
+          <Carousel></Carousel>
+          
+        </div>
+        <Footer></Footer>
       </div>
     );
   }
