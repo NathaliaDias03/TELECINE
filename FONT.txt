@@ -1,1 +1,0 @@
-font-family: proxima_nova_rgbold;
