@@ -46,65 +46,18 @@ class Carousel extends Component {
             centerMode: true,
             slidesToShow: 3,
             infinite: true,
-            dots: true,
             autoplay: true,
             adaptativeHeight: true,
             autoplaySpeed: 2000,
             pauseOnHover: true,
-            centerPadding: "40px",
+            centerPadding: "0px",
             speed: 500,
-            initialSlide: 0
-            /*responsive: [
-                {
-                    breakpoint: 1024,
-                    settings: {
-                        centerMode: true,
-                        slidesToShow: 3,
-                        infinite: true,
-                        dots: true,
-                        autoplay: true,
-                        autoplaySpeed: 2000,
-                        pauseOnHover: true,
-                        centerPadding: "60px",
-                        speed: 500,
-                        initialSlide: 0,
-                    }
-                },
-                {
-                    breakpoint: 600,
-                    settings: {
-                        centerMode: true,
-                        slidesToShow: 1,
-                        infinite: true,
-                        dots: true,
-                        autoplay: true,
-                        autoplaySpeed: 2000,
-                        pauseOnHover: true,
-                        centerPadding: "60px",
-                        speed: 500,
-                        initialSlide: 0,
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        centerMode: true,
-                        slidesToShow: 3,
-                        infinite: true,
-                        dots: true,
-                        autoplay: true,
-                        autoplaySpeed: 2000,
-                        pauseOnHover: true,
-                        centerPadding: "120px",
-                        speed: 500,
-                        initialSlide: 0,
-                    }
-                }
-            ]*/
+            initialSlide: 0,
+            focusOnSelect: true
         };
 
         return (
-            <div className="text-center mx-auto slider">
+            <div className="text-center mx-auto py-4 slider">
                 <Slider {...settings}>
                     {this.renderList()}
                 </Slider>

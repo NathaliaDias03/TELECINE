@@ -4,7 +4,7 @@ import logo from './../logo.png';
 
 const Footer = () => {
     return (
-        <footer className="Footer page-footer mx-auto fixed-bottom">
+        <footer className="Footer page-footer mx-auto mt-2">
             <img src={logo} className="Footer-Logo" alt="logo telecine play" />
             <p>
                 Ficou com alguma dúvida?

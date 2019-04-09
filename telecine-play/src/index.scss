@@ -1,12 +1,15 @@
-$primary-color: #ff0;
-$primary-font: "proxima_nova_rgbold";
+$primary-font: "proxima_novaregular";
 $primary-font-smoothing: "";
+$gray: #9c9c9c;
 
 %centralize {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  max-height: 100px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 body {
@@ -14,7 +17,7 @@ body {
   padding: 0;
   /*font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif;*/
-    font-family: "proxima_novaregular";
+  font-family: $primary-font;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -23,6 +26,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
-.text-gray{
-    color:#bbb;
-}  
+.half-grey-bg{
+    height: 100%;
+    background: linear-gradient(180deg, #FFF 50%, #909090 50%);
+}
+
+.grey-bg{
+  height: 100%;
+  background-color: #909090;
+}
+
+.text-gray {
+  color: #bbb;
+}
+
+.rounded-image{
+    border-radius: 5%;
+}

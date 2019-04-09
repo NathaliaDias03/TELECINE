@@ -4,6 +4,7 @@ import Header from './UI/Header';
 import Footer from './UI/Footer';
 import Home from './UI/Home'
 import Carousel from './UI/Carousel';
+import Dispositivos from './UI/Dispositivos';
 import "bootstrap/scss/bootstrap.scss";
 // require('bootstrap');
 
@@ -12,11 +13,15 @@ class App extends Component {
     return (
       <div className="App">
         <Header></Header>
-        <div className="container">
-          <Home></Home>
+
+        <Home></Home>
+        <div className="container half-grey-bg">
           <Carousel></Carousel>
-          
         </div>
+        <div className="container grey-bg">
+          <Dispositivos></Dispositivos>
+        </div>
+        
         <Footer></Footer>
       </div>
     );

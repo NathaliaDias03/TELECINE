@@ -6,27 +6,27 @@ const MovieCard = (props) => {
      if (width > 768) {
     return (
         <a href="#">
-            <div key={props.id} className="mx-4 d-block mb-2 movieCard">
-                <img alt={props.title} src={props.poster_m} className="rounded img-fluid mx-auto d-block" />
-                <p className="movie_titulo">{props.title}</p>
+            <div key={props.id} className="mx-4 d-block mb-2">
+                <img alt={props.title} src={props.poster_m} className="rounded-image img-fluid mx-auto d-block  movieCard" />
+                {/* <p className="movie_titulo">{props.title}</p> */}
             </div>
         </a>
     )}
     else if(width > 460){
         return(
         <a href="#">
-            <div key={props.id} className="d-block  mb-2 movieCard">
-                <img alt={props.title} src={props.poster_p} className="rounded img-fluid mx-auto d-block" />
-                <p className="movie_titulo">{props.title}</p>
+            <div key={props.id} className="d-block mb-2 ">
+                <img alt={props.title} src={props.poster_p} className="rounded-image img-fluid mx-auto d-block movieCard" />
+                {/* <p className="movie_titulo">{props.title}</p> */}
             </div>
         </a>
         )
     }else{
         return(
         <a href="#">
-            <div key={props.id} className="mx-2 d-block mb-2 movieCard">
-                <img alt={props.title} src={props.poster_p} className="rounded img-fluid mx-auto d-block" />
-                <p className="movie_titulo">{props.title}</p>
+            <div key={props.id} className="mx-2 d-block mb-2">
+                <img alt={props.title} src={props.poster_p} className="rounded-image img-fluid mx-auto d-block movieCard" />
+                {/* <p className="movie_titulo">{props.title}</p> */}
             </div>
         </a>
         )

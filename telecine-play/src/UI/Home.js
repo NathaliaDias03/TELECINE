@@ -3,7 +3,7 @@ import './Home.scss';
 
 const Home = () => {
     return (    
-            <section className="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-center mx-auto">
+            <section className="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-center mx-auto py-3">
                 <h2 className="mx-2">
                     <p>
                         Filmes exclusivos dos maiores estúdios, é <span className="text-gray">só dar um play</span>

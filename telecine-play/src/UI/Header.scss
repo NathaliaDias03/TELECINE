@@ -2,10 +2,6 @@
 
 .Header {
     @extend %centralize;
-    background-color: #FFF;
-    max-height: 100px;
-    padding-top: 16px;
-    padding-bottom: 16px;
   }  
   .Header-Logo{
       width: 150px;
