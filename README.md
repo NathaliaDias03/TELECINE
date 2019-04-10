@@ -1,5 +1,6 @@
 ### Projeto Telecine Play
 Esse projeto foi criado utilizando create-react-app, a fim de atender as especificações do teste da Telecine.
+Visualização do projeto disponível em: [https://msaatkamp.github.io/TELECINE/#/](https://msaatkamp.github.io/TELECINE/#/)
 
 ### Instalação e Scripts
 
